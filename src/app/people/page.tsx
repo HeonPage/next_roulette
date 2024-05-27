@@ -1,17 +1,17 @@
 import Link from "next/link";
-import RouletteBox from "./RouletteBox";
+import RouletteBox from "../RouletteBox";
 const date = new Date();
 const items: any[] = [
-  { name: "시나미왕갈비탕" },
-  { name: "불향쭈꾸미" },
-  { name: "로로카츠" },
-  { name: "원성식당" },
-  { name: "금정식당" },
-  { name: "문화식당" },
-  { name: "소소정(갈비찜)" },
-  { name: "오솔길식당" },
-  { name: "육반장" },
-  { name: "홍제동언덕길그집" },
+  { name: "강만영" },
+  { name: "하동섭" },
+  { name: "장창근" },
+  { name: "이광호" },
+  { name: "임병현" },
+  { name: "서승재" },
+  { name: "정항용" },
+  { name: "하현재" },
+  { name: "황인중" },
+  { name: "오승용" },
 ];
 export default function Home() {
   return (
@@ -43,12 +43,11 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            저녁 어디 갈까{" "}
+            누가 할까{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">뭐 먹지</p>
         </Link>
 
         <Link

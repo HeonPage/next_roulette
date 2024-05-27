@@ -1,17 +1,11 @@
 import Link from "next/link";
-import RouletteBox from "./RouletteBox";
+import RouletteBox from "../RouletteBox";
 const date = new Date();
 const items: any[] = [
-  { name: "시나미왕갈비탕" },
-  { name: "불향쭈꾸미" },
-  { name: "로로카츠" },
-  { name: "원성식당" },
-  { name: "금정식당" },
-  { name: "문화식당" },
-  { name: "소소정(갈비찜)" },
-  { name: "오솔길식당" },
-  { name: "육반장" },
-  { name: "홍제동언덕길그집" },
+  { name: "임병현" },
+  { name: "서승재" },
+  { name: "정항용" },
+  { name: "하현재" },
 ];
 export default function Home() {
   return (
